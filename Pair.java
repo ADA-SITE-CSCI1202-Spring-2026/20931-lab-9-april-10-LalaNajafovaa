@@ -30,7 +30,7 @@ public class Pair<K, V> {
     }
 
     public static void main(String[] args) {
-        Pair<String, Integer> p1 = new Pair<>("Alice", 95);
+        Pair<String, Integer> p1 = new Pair<>("Lala", 95);
         System.out.println(p1);
         System.out.println("Key: " + p1.getKey());
         System.out.println("Value: " + p1.getValue());
